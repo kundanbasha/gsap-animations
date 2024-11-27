@@ -8,11 +8,15 @@ function App() {
 
   return (
     <div>
+      <div className="h-screen">
       <GSAPTo/>
       <GSAPFrom/>
       <GSAPFromTo/>
       <GSAPTimeline/>
+      </div>
+      <div className="h-screen">
       <GSAPScrollTrigger/>
+      </div>
     </div>
   )
 }
